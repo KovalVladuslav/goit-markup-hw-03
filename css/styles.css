@@ -217,6 +217,7 @@ ul {
   text-align: center;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .user-card-container {
@@ -234,10 +235,6 @@ ul {
 
 .services-list-title {
   margin-bottom: 8px;
-}
-
-.services-list-item {
-  width: calc((100% - 72px) / 4);
 }
 
 .services-list-title,
@@ -268,12 +265,13 @@ ul {
 }
 .portfolio-card {
   background-color: var(--white-color);
-  width: ≈;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card-bottom {
   border: 1px solid var(--border-color);
   padding: 32px 16px;
+  border-top: none;
 }
 
 .portfolio-card-img {
@@ -291,7 +289,6 @@ ul {
   color: #f4f4fd;
   width: 264px;
   display: block;
-  margin-top: 16px;
 }
 
 .logo-white {
@@ -313,4 +310,9 @@ ul {
 
 .container-footer {
   border-top: none;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
